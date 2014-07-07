@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+header {
+  background: #00ada9;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%; }
+  header h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 5px;
+    margin: 0;
+    color: white; }
+  header a {
+    text-decoration: none; }
+
+section {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  margin-top: -30px; }
+  section p {
+    margin: 30px auto;
+    font-family: 'Droid Sans', sans-serif; }
+  section h1 {
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif; }
+
+img {
+  border-radius: 6%; }
+
+.intro {
+  background: #dcffe2;
+  padding-top: 100px;
+  text-align: center; }
+  .intro .button {
+    width: 300px;
+    margin-top: 55px;
+    background: #00ada9;
+    cursor: pointer;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    border-radius: 10px; }
+    .intro .button a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase; }
+    .intro .button:hover {
+      background: #293b47;
+      transition: all 0.4s; }
+
+.section-1 {
+  background: #293b47;
+  text-align: center;
+  color: white; }
+  .section-1 .grid-container {
+    padding: 200px 80px; }
+
+.section-2 {
+  background: #dcffe2;
+  padding-left: 20px;
+  padding-right: 40px; }
+  .section-2 h1 {
+    padding: 60px; }
+  .section-2 p {
+    padding: 200px 80px;
+    font-size: 1.2em;
+    letter-spacing: 2px; }
+
+.section-3 {
+  background: #293b47;
+  padding-left: 50px;
+  padding-right: 50px; }
+  .section-3 h1, .section-3 h2 {
+    color: #dcffe2; }
+  .section-3 h2 {
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+
+.section-4 {
+  background: #dcffe2; }
